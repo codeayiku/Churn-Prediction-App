@@ -5,6 +5,11 @@ from PIL import Image
 # Set the title of the app
 st.set_page_config(page_title="Customer Churn Prediction", layout="wide")
 
+# Add an image from URL
+image_url = "https://www.retently.com/wp-content/uploads/2015/11/leading-causes-of-churn-1.png"
+st.image(image_url, caption='Leading Causes of Customer Churn', use_column_width=True)
+
+
 # Home Page Content
 st.title("📡 Customer Churn Prediction App")
 
